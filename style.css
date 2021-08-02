@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;   
+}
+
+.container, header, footer{
+    max-width: 36rem;
+    margin: 0 auto;
+}
+header h2{
+    font-family: 'Inconsolata', monospace;
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 7.11rem;
+    letter-spacing: -4px;
+}
+
+p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.66rem;
+    
+}
+
+button{
+    background: #333;
+    color: #fff;
+    padding: 2rem 5.5rem;
+    margin: 2rem 0;
+    font-size: 1.4rem;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+footer, footer span{
+    font-size: 1.4rem;
+    color: #bdbdbd;
+}
+
+footer{
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+footer span{
+    font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        max-width: 768px;
+        display: flex;
+        height: 80vh;
+        align-items: center;
+    }
+
+    img, .text{
+        padding: 0 2rem;
+    }
+
+    footer{
+        display: flex;
+        height: 10vh;
+ 
+        align-items: center;
+    }
+    header{
+        
+        padding: 0 2rem;
+        height: 10vh;
+    }
+
+    footer, header{
+        max-width: 768px;
+    }
+    
+}
+    @media screen and (min-width: 1080px) {
+        .container, footer, header{
+            max-width: 1080px;
+        }
+
+    }
