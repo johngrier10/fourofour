@@ -49,7 +49,7 @@ img{
     width: 100%;
 }
 
-footer, footer span{
+footer, footer span, strong, u{
     font-size: 1.4rem;
     color: #bdbdbd;
 }
@@ -98,3 +98,7 @@ footer span{
         }
 
     }
+
+span{
+    display: inline-block;
+}
